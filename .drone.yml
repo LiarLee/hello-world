@@ -9,6 +9,12 @@ steps:
   - echo world
   - echo Hayden
 
+- name: bug trigger
+  commands:
+  - echo Staring ...
+  - /bin/vtef adjfladfadfakdjfsdf 
+  - echo OOPS .. stop
+
 - name: build
   image: plugins/docker
   settings:
