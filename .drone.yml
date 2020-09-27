@@ -9,7 +9,7 @@ steps:
   - echo world
   - echo Hayden
 
-- name: bug trigger
+- name: trigger
   commands:
   - echo Staring ...
   - echo OOPS .. stop
