@@ -9,6 +9,11 @@ steps:
   - echo world
   - echo Hayden
 
+- name: test2 
+  image: busybox
+  commands:
+  - cat /etc/fstab
+
 - name: build
   image: plugins/docker
   settings:
