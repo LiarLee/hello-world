@@ -9,11 +9,6 @@ steps:
   - echo world
   - echo Hayden
 
-- name: trigger
-  commands:
-  - echo Staring ...
-  - echo OOPS .. stop
-
 - name: build
   image: plugins/docker
   settings:
